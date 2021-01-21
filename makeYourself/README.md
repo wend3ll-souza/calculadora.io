@@ -18,7 +18,9 @@
 <hr>
 
 ### Incremente os Requitos de 3 a 5 na função `addEventListener()`:
+
 <br>
+
 #### Requisito 3: Inserir valor das teclas no input
 
 - Crie uma _condicional_ onde, Se o elemento clicado tiver a classe igual a `'buttons'` o valor do botão clicado teve ser encrementado ao input com o id igual a `'display'`;
