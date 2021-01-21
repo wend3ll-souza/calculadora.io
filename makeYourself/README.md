@@ -31,5 +31,5 @@
 - crie uma condicional onde, Se o nome do _id_ do elemento clicado for igual a `'equal'` o valor contido no `input` de _id_ `'display'` será igual a operação contida no input.
     _Dica_: use **eval()** para retornar o resultado da operação
 
-### Requisito 5: Limpar display
+#### Requisito 5: Limpar display
 
