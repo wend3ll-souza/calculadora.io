@@ -1,10 +1,12 @@
 ## Calculadora 
+
 <hr>
 
 `HTML` `CSS` `JS`
 
 ### Incremente os requisitos 1 e 2 a função `criandoBotoes()`
 <br>
+
 #### Requisito 1: Criar Teclas de 0 a 9
 
  - Crie um laço que retonará as teclas de 0 a 9, onde a cada repetição será criado um elemento `button` com a classe `buttons`. Depois o elemento `button` será adiciona a contante `teclado`.
