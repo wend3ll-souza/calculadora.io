@@ -1,0 +1,73 @@
+* {
+    overflow: hidden;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto auto; 
+    padding: 10px;
+}
+
+.grid-panel {
+    display: grid;
+    grid-template-columns:  auto auto auto auto; 
+    padding: 10px;
+}
+
+.grid-panel button:nth-child(1) {
+    background-color: rgb(89, 207, 89);
+}
+
+.grid-panel button:nth-child(2) {
+    background-color: rgb(207, 132, 89);
+}
+
+.grid-panel button:nth-child(3) {
+    background-color: rgb(65, 156, 209);
+}
+
+.grid-panel button:nth-child(4) {
+    background-color: rgb(154, 89, 207);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 117, 117);
+}
+
+.calcDisplay {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.buttons {
+    padding: 3px;
+    margin: 2px;
+    border: none;
+    outline: none;
+    opacity: .7;
+}
+
+.buttons:hover {
+    opacity: 1;
+}
+
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.spin {
+    width: 100px;
+    animation: spin 60s;
+}

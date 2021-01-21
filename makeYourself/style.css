@@ -1,0 +1,28 @@
+* {
+    overflow: hidden;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto auto; 
+    padding: 10px;
+}
+
+.grid-panel {
+    display: grid;
+    grid-template-columns:  auto auto auto auto; 
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
