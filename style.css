@@ -61,6 +61,17 @@
     opacity: 1;
 }
 
+.repoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.repoButton {
+    padding: 8px;
+    backgroung-color: #eed202;
+    color: white;
+}
+
 
 @keyframes spin {
     from { transform: rotate(0deg); }
